@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <img src="images/hero.jpg" />
+    </header>
+
+    <div>
+      <img class="circle_cat" src="images/profile.png" />
+    </div>
+
+    <picture>
+      <source media="(min-width: 850px)" />
+      <img srcset="cat-1.jpg" />
+      <source media="(min-width:500px)" />
+      <img srcset="cat-2.jpg" />
+      <img src="images/cat-3.jpg" />
+    </picture>
+  </body>
+</html>

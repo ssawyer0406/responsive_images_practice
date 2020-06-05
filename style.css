@@ -1,0 +1,19 @@
+/* mobile */
+
+.hero {
+  width: 100%;
+  height: 40vh;
+}
+
+img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.circle_cat {
+  border-radius: 50%;
+  height: 4em;
+  width: 20%;
+  display: flex;
+}
